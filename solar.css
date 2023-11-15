@@ -37,7 +37,7 @@
 }
 body {
     background-color: var(--clr-bg);
-    margin: 0;
+    /*overflow: hidden;*/
 }
 .wrapper {
     padding-bottom: 65%;
@@ -72,7 +72,6 @@ body {
 .sun {
     border-radius: 50%;
     display: block;
-    z-index: 10;
 }
 
 .planet {
@@ -86,9 +85,9 @@ body {
 .sun {
     background-color: var(--clr-sun);
     display: flex;
-    height: 11.5%;
-    width: 11.5%;
-    top: 45%;
+    height: 11.5vh;
+    width: 11.5vh;
+    top: 45vh;
     left:315px ;
 
 }
@@ -221,4 +220,4 @@ body {
 .neptune .planet {
     height: 3.57%;
     width:3.57%;
-}
+} 
