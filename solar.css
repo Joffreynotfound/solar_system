@@ -37,7 +37,6 @@
 }
 body {
     background-color: var(--clr-bg);
-    /*overflow: hidden;*/
 }
 .wrapper {
     padding-bottom: 65%;
@@ -88,7 +87,7 @@ body {
     height: 11.5vh;
     width: 11.5vh;
     top: 45vh;
-    left:315px ;
+    left:45vh ;
 
 }
 
